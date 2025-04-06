@@ -1,0 +1,198 @@
+
+/* Container für Logo und Schriftzug */
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgb(73,63,56,0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoNav img {
+    max-height: 50px; /* Maximale Höhe des Logos */
+    border-radius: 50%;
+}
+
+/* Schriftzug (Firma und Slogan) */
+.schriftzugNavContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schriftzugGroß {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #d6b99c;
+    font-weight: bold;
+}
+
+.schriftzugKlein {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #d6b99c;
+}
+
+/* Navigation Button (nur für mobile Ansicht) */
+.navButton {
+    display: none; /* Standardmäßig verstecken */
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #1b392b;
+}
+
+/* Desktop Navigation */
+.desktopNav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.desktopNav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktopNav li {
+    padding: 0 15px;
+}
+
+.desktopNav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #4a3f38;
+    font-weight: bold;
+}
+
+.desktopNav a:hover {
+    color: #c5b5b5;
+}
+
+/* Mobile Navigation (standardmäßig versteckt) */
+.mobileNav {
+    display: none; /* Versteckt auf Desktop */
+    position: absolute;
+    top: 88px; /* Position unterhalb der fixierten Navigation */
+    left: 0;
+    width: 100%;
+    background-color:rgb(73,63,56,0.8);;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.mobileNav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobileNav li {
+    padding: 10px 0;
+}
+
+.mobileNav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #d1c6c0;
+    font-weight: bold;
+}
+
+.mobileNav a:hover {
+    color: #c5b5b5;
+}
+
+/* Hamburger Button (nur für mobile Ansicht) */
+.navButton {
+    display: none; /* Standardmäßig ausblenden */
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #4a3f38;
+    cursor: pointer;
+}
+
+/* Bei mobilen Bildschirmen wird das Hamburger-Menü und die mobile Navigation angezeigt */
+@media (max-width: 768px) {
+    .desktopNav {
+        display: none; /* Versteckt die Desktop-Navigation */
+    }
+
+    .mobileNav {
+        display: none; /* Mobile Navigation ist anfangs versteckt */
+    }
+
+    .navButton {
+        display: block; /* Zeigt den Hamburger-Button an */
+    }
+
+    .mobileNav.active {
+        display: block; /* Zeigt die mobile Navigation, wenn sie aktiv ist */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Auf mobilen Geräten wird die Navigation ausgeblendet */
+    .navLinks {
+        display: none; /* Ausgeblendete Navigation für kleinere Bildschirme */
+    }
+
+    /* Den Button für das Ausklappen sichtbar machen */
+    .navButton {
+        display: block;
+    }
+
+    /* Die Schriftzüge etwas kleiner machen für mobile Ansicht */
+    .schriftzugGroß {
+        font-size: 1.5rem;
+    }
+
+    .schriftzugKlein {
+        font-size: 0.9rem;
+    }
+}
+
+/* Wenn der Button geklickt wird, werden die Links angezeigt */
+.navLinks.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Für die Animation des Buttons */
+.navButton.active {
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

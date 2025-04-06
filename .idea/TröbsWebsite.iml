@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Twebsite/tests/Unit" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/pail" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/flysystem-local" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/Twebsite/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="foundation-sites" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+  </component>
+</module>

@@ -1,0 +1,23 @@
+/* Mobile */
+@media (max-width: 799px) {
+    .imageContainer {
+       width: 100%;
+        height: 100%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 800px) and (max-width: 3000px) {
+    .imageContainer {
+        width: 300px;
+        height: 300px;
+    }
+    .body{
+        width: 40%;
+    }
+
+    .defaultContainer{
+        width: 40%;
+    }
+
+}
