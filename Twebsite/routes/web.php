@@ -14,3 +14,7 @@ Route::get("/Übermich", function ()
 {
     return view('übermichView');
 });
+Route::get("/Leistungen", function ()
+{
+    return view('leistungenView');
+});

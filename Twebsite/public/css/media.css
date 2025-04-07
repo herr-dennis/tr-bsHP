@@ -4,6 +4,11 @@
        width: 100%;
         height: 100%;
     }
+
+    .imageDefaultContainer img{
+        width: 100%;
+    }
+
 }
 
 /* Desktop */
@@ -15,6 +20,18 @@
     .body{
         width: 40%;
     }
+    .headline::after {
+        width: 20vw; /* 70% der gesamten Bildschirmbreite */
+
+    }
+    .imageDefaultContainer img {
+        width: 100vw;
+        height: 40vh; /* z.B. 40% der Bildschirmhöhe */
+        object-fit: cover;
+        display: block;
+    }
+
+
 
     .defaultContainer{
         width: 40%;

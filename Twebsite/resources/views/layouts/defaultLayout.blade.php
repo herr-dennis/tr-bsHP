@@ -49,18 +49,20 @@
             <!-- Desktop Navigation -->
             <nav class="navLinks desktopNav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Leistungen</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="Leistungen">Leistungen</a></li>
+                    <li><a href="Kontakt">Kontakt</a></li>
+                    <li><a href="Übermich">Über mich</a></li>
                 </ul>
             </nav>
 
             <!-- Mobile Navigation -->
             <nav class="navLinks mobileNav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Leistungen</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="Leistungen">Leistungen</a></li>
+                    <li><a href="Kontakt">Kontakt</a></li>
+                    <li><a href="Übermich">Über mich</a></li>
                 </ul>
             </nav>
 
@@ -75,9 +77,6 @@
 
         </script>
 
-        <div class="imageContainer">
-            <img src="{{asset('image/TröbsLogoFinal.svg.png')}}" class="imageHeader"  id="logo"  alt="Logo">
-        </div>
 
         <script>
             // Logo-Element abrufen
@@ -132,14 +131,15 @@
         </div>
     </div>
 
-    <a  href="/Impressum">Impressum</a>
-    <a  href="/Datenschutz">Datenschutz</a>
+    <div class="footerContainer" >
+        <a  href="/Impressum">Impressum</a>
+        <span>|</span>
+        <a  href="/Datenschutz">Datenschutz</a>
+    </div>
+
     <p class="copy" >&copy; Entwickelt von Schwarz@Web</p>
     @section("footer")
     @show
 </footer>
-<script>
-    $(document).foundation();
-</script>
 </body>
 </html>

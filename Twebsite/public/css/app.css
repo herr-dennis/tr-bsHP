@@ -12,10 +12,11 @@ body {
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    color: #4a3f38;
+    color: #16464b;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-weight: bold;
 }
 
 p {
@@ -44,11 +45,25 @@ footer {
 }
 
 footer a {
+    font-size: 1.2rem;
+    text-decoration: none; /* Kein Unterstrich */
+    font-weight: bold; /* Fetter Text */
+    transition: color 0.3s ease;
+    color: rgb(73,63,56,0.8);
+    margin: 10px;
+}
+
+p a{
 
     text-decoration: none; /* Kein Unterstrich */
     font-weight: bold; /* Fetter Text */
     transition: color 0.3s ease;
     color: rgb(73,63,56,0.8);
+}
+
+p a:hover{
+    color:  #d7ba9d; /* Hover-Farbe für Links */
+    width: 90%;
 }
 
 footer a:hover {
@@ -70,6 +85,17 @@ footer a:hover {
 
 
 }
+
+.defaultContainer ul{
+
+    list-style: disc inside;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.defaultContainer li{
+    margin-bottom: 0.5rem;
+}
+
 .defaultContainer p {
     text-align: center;
 }
@@ -126,7 +152,22 @@ footer a:hover {
     display: block;
     width: 40vw; /* 70% der gesamten Bildschirmbreite */
     height: 1px;
-    background-color: #5c2d91;
+    background-color:#4a3f38;
     margin: 4px auto 0;
 }
 
+
+.imageDefaultContainer {
+
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+li{
+    color: #16464b;
+}
+
+.copy{
+    margin-top: 10px;
+}

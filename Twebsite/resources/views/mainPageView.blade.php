@@ -3,6 +3,12 @@
 
 @section("main-content")
 
+
+    <div class="imageDefaultContainer">
+        <img src="{{asset("image/hände.png")}}" alt="TröbsLogoFinal.svg.png">
+    </div>
+
+
     <div class="defaultContainer" >
         <h1>Herzlich willkommen!</h1>
         <p>Mein Name ist <strong>Daniel Troebs</strong> und ich freue mich, dass Sie hier sind.</p>
