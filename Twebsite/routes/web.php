@@ -18,3 +18,7 @@ Route::get("/Leistungen", function ()
 {
     return view('leistungenView');
 });
+
+
+Route::get('/Kontakt', [App\Http\Controllers\MainController::class, 'getKontakt']);
+

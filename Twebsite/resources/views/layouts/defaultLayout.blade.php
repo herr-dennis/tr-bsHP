@@ -11,6 +11,7 @@
     <link href="{{ asset('css/media.css') }}?v={{ filemtime(public_path('css/media.css')) }}" rel="stylesheet">
     <!-- In den <head> deiner Blade- oder HTML-Datei -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="icon" href="{{ asset('FaviconLogo.png') }}" type="image/x-icon">
     <meta name="description" content="@yield("beschreibung")">
@@ -25,6 +26,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"></script>
+    <script src="{{asset("js/funktions.js")}}" ></script>
 
 </head>
 <body>
@@ -32,7 +34,7 @@
     @section("header")
         <div class="navContainer">
             <!-- Logo und Schriftzug -->
-            <div class="logoNav">
+            <div id="logoNav" class="logoNav">
                 <img src="{{ asset('image/TröbsLogoFinalöö.png') }}" alt="" class="logo"> <!-- Dein Logo hier -->
             </div>
 
@@ -76,49 +78,25 @@
             }
 
         </script>
-
-
-        <script>
-            // Logo-Element abrufen
-            let logos = document.querySelectorAll('.imgHeader');
-            logos.forEach(function (logo) {
-                logo.addEventListener('click', function () {
-                    window.location.href = '/';
-                });
-            });
-        </script>
-
-
     @show
 </header>
 <main>
     <div style="position: fixed; bottom: 0; left: 0; margin: 3px ">
-        <button class="buttonLogin" onclick="scrollToLogo()">
+        <button id="scrollBtn">
             <i class="fas fa-arrow-up"></i>
         </button>
     </div>
-
-
-    <script>
-        function scrollToLogo() {
-            const logoElement = document.getElementById("logo");
-            if (logoElement) {
-                logoElement.scrollIntoView({
-                    behavior: 'smooth', // Weiches Scrollen
-                    block: 'start'      // Beginnt am oberen Rand des Elements
-                });
-            }
-        }
-
-    </script>
-
 
     @section("main-content")
     @show
 </main>
 
 <footer>
+    <div class="socialMedia">
+        <i id="facebookBtn" class="fab fa-facebook"></i>
 
+        <i id="instagramBtn" class="fab fa-instagram"></i>
+    </div>
     <div class="container" id="mitglieder">
         <p> Bundesverband Soziotherapie e.V.</p>
         <div class="logos">
@@ -136,6 +114,9 @@
         <span>|</span>
         <a  href="/Datenschutz">Datenschutz</a>
     </div>
+
+
+
 
     <p class="copy" >&copy; Entwickelt von Schwarz@Web</p>
     @section("footer")
