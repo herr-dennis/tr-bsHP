@@ -27,21 +27,19 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"></script>
     <script src="{{asset("js/funktions.js")}}" ></script>
-
+    <script src="{{asset("js/nav.js")}}" ></script>
 </head>
 <body>
 <header>
     @section("header")
         <div class="navContainer">
             <!-- Logo und Schriftzug -->
-            <div id="logoNav" class="logoNav">
-                <img src="{{ asset('image/TröbsLogoFinalöö.png') }}" alt="" class="logo"> <!-- Dein Logo hier -->
-            </div>
+
 
             <!-- Schriftzüge (Firma und Slogan) -->
             <div class="schriftzugNavContainer">
-                <div class="schriftzugGroß">Daniel Troebs</div> <!-- Groß -->
-                <div class="schriftzugKlein">Balance, Ruhe & Energie</div> <!-- Klein -->
+                <div class="schriftzugGroß">Daniel Sujan Troebs</div> <!-- Groß -->
+                <div class="schriftzugKlein">Beratung - Coaching - Mediation</div> <!-- Klein -->
             </div>
 
             <!-- Navigation Button (für mobile Ansicht) -->
@@ -52,7 +50,18 @@
             <nav class="navLinks desktopNav">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="Leistungen">Leistungen</a></li>
+                    <li class="dropdown">
+                        <a href="Leistungen">Leistungen</a>
+                        <ul class="dropdownMenu">
+                            <li><a href="/Leistungen#PBC">Psychologische Beratung & Coaching</a></li>
+                            <li><a href="/Leistungen#SBC">Systemische Beratung & Coaching</a></li>
+                            <li><a href="/Leistungen#SBCF">Systemische Beratung & Coaching für Führungskräfte,
+                                    Selbstständige & Unternehmen</a></li>
+                            <li><a href="/Leistungen#MP">Meditation & Potenzialentfaltung</a></li>
+                            <li><a href="/Leistungen#S">Soziotherapie</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/KostenAblauf" >Kosten&Ablauf</a></li>
                     <li><a href="Kontakt">Kontakt</a></li>
                     <li><a href="Übermich">Über mich</a></li>
                 </ul>
@@ -62,7 +71,19 @@
             <nav class="navLinks mobileNav">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="Leistungen">Leistungen</a></li>
+                    <li class="dropdownMobile">
+                        <a href="Leistungen">Leistungen</a>
+                        <ul id="dropdownMenuMobileID" class="dropdownMenuMobile">
+                            <li><a href="#" id="backToMain">← Zurück</a></li>
+                            <li><a href="/Leistungen#PBC">Psychologische Beratung & Coaching</a></li>
+                            <li><a href="/Leistungen#SBC">Systemische Beratung & Coaching</a></li>
+                            <li><a href="/Leistungen#SBCF">Systemische Beratung & Coaching für Führungskräfte,Selbstständige & Unternehmen</a></li>
+                            <li> <a href="/Leistungen#MP">Meditation & Potenzialentfaltung</a></li>
+                            <li> <a href="/Leistungen#S">Soziotherapie</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="/KostenAblauf" >Kosten&Ablauf</a></li>
                     <li><a href="Kontakt">Kontakt</a></li>
                     <li><a href="Übermich">Über mich</a></li>
                 </ul>
@@ -71,6 +92,7 @@
             <!-- Hamburger Button für Mobile -->
             <button class="navButton" onclick="toggleNav()">☰</button>
         </div>
+
         <script>
             function toggleNav() {
                 const mobileNav = document.querySelector('.mobileNav');
@@ -93,17 +115,29 @@
 
 <footer>
     <div class="socialMedia">
-        <i id="facebookBtn" class="fab fa-facebook"></i>
+        <i  id="facebookBtn" class="fab fa-facebook"></i>
 
         <i id="instagramBtn" class="fab fa-instagram"></i>
     </div>
+
     <div class="container" id="mitglieder">
-        <p> Bundesverband Soziotherapie e.V.</p>
+        <p  class="headline" >  Bundesverband Soziotherapie e.V.</p>
         <div class="logos">
             <div class="logo-item">
                 <a href="https://soziotherapie.eu/" target="_blank" >
 
                     <img src="{{asset('image/sozioBund.png')}}" alt="Platzhalter Logo 2">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="mitglieder">
+        <p class="headline" > Deutsche Gesellschaft für Systemische Therapie</p>
+        <div class="logos">
+            <div class="logo-item">
+                <a href="https://dgsf.org/" target="_blank" >
+
+                    <img src="{{asset('image/dgsf-siegel-mitglied-rgb + Link.gif')}}" alt="Platzhalter Logo 2">
                 </a>
             </div>
         </div>

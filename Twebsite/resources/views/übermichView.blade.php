@@ -6,9 +6,14 @@
 
       <h2 class="headline" >Über mich</h2>
 
-    <img class="imageÜbermich" src="{{asset("/image/IMG_6165 Kopie.png")}}" alt="Bild">
+
 
     <section class="defaultContainer">
+
+
+        <div class="logoIntro" >
+            <img  src="{{asset("/image/IMG_6165 Kopie.png")}}" alt="Bild">
+        </div>
 
         <p>Mein Name ist Daniel Sujan Tröbs.<br>
             Seit mehr als 25 Jahren begleite ich Menschen als Gesundheits- und Krankenpfleger mit einem besonderen Schwerpunkt in der Psychiatrie. Schon früh zog mich dieser Bereich in seinen Bann, weil er mich immer wieder vor die spannende Frage stellt, was uns als Menschen bewegt, herausfordert und wachsen lässt.</p>

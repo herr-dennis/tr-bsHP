@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     color: #16464b;
     text-align: center;
@@ -90,7 +90,14 @@ footer a:hover {
     list-style: none;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
+    align-self: flex-start; /* Hebt das zentrierte align-items für ul auf */
+    text-align: left;       /* Optional, falls Textzentrierung aktiv ist */
+    margin-left: 20px;      /* Optional, um etwas Einzug zu geben */
 }
+.defaultContainer ul li {
+    text-align: left;
+}
+
 
 .defaultContainer ul li::before {
     content: "🌿";  /* Yoga-Emoji */
@@ -161,25 +168,18 @@ footer a:hover {
     margin: 4px auto 0;
 }
 
-
 .imageDefaultContainer {
-
     margin: 20px;
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
 }
+
 li{
     color: #16464b;
 }
 
 .copy{
     margin-top: 10px;
-}
-
-
-.info-block{
-
 }
 
 .socialMedia{
@@ -192,4 +192,104 @@ li{
 .socialMedia i{
     margin-right: 10px;
     font-size: 30px;
+}
+.logoIntro {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.unterschrift{
+    color: #16464b;
+}
+
+.logoIntro img {
+    width: 100%;
+    max-width: 400px; /* deutlich größer */
+    height: auto;
+    border-radius: 12px; /* schöne, weiche Ecken */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* tiefer Schatten */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* optionaler, dezenter Rahmen */
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap; /* wichtig für Zeilenumbruch bei kleinen Bildschirmen */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.moveIn{
+    margin-left: 20px;
+}
+.card li{
+    padding: 5px;
+}
+
+.card ul {
+    padding: 0;
+    margin: 0;
+}
+.card:hover{
+    scale: 1.2;
+}
+.scroll-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 16px;
+}
+
+#scrollBtn {
+    background-color: #16464b;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease;
+}
+
+#scrollBtn:hover {
+    background-color: #16464b;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(55, 103, 23);
+    }
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(30, 144, 255, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(30, 144, 255, 0);
+    }
+}
+
+
+.defaultContainer .info-block {
+    width: 100%;
+    background: rgb(74, 63, 56 , 0.3)
+;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.defaultContainer .info-block p {
+    margin: 0;
 }

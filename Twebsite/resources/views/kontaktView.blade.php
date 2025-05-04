@@ -1,10 +1,16 @@
 @extends("layouts.defaultLayout")
 
-
 @section("main-content")
 
+    <h2>Kontakt</h2>
+
 <div class="defaultContainer">
-    <h1>Daniel Tröbs (Sujan)</h1>
+
+    <div class="logoIntro">
+        <img src="{{ asset('image/kontakt.jpeg') }}" alt="Daniel Troebs Logo">
+    </div>
+
+    <h2>Daniel Tröbs (Sujan)</h2>
     <div class="info-block">
         <strong>Website:</strong> <a href="http://www.daniel-troebs.de" target="_blank">www.daniel-troebs.de</a><br>
         <strong>Email:</strong> <a href="mailto:office@d.troebs.de">office@d.troebs.de</a><br>
@@ -41,13 +47,7 @@
 
     <h2>Zusätzliche Informationen</h2>
     <div class="info-block">
-        <strong>PayPal:</strong> Integration erfolgt auf Anfrage.
-    </div>
-
-    <div class="footer-links">
-        <a href="/impressum">Impressum</a>
-        <a href="/agb">AGB</a>
-        <a href="/bildrechte">Bildrechte</a>
+        <a href="/Impressum" >Impressum</a>
     </div>
 </div>
 

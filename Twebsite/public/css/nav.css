@@ -11,10 +11,6 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logoNav img {
-    max-height: 70px; /* Maximale Höhe des Logos */
-
-}
 
 /* Schriftzug (Firma und Slogan) */
 .schriftzugNavContainer {
@@ -43,14 +39,14 @@
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    color: #1b392b;
+    color: #17494f;
 }
 
 /* Desktop Navigation */
 .desktopNav {
     display: flex;
     justify-content: center;
-    background-color: #f0f0f0;
+    background-color: #1b392b;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -68,9 +64,12 @@
 }
 
 .desktopNav a {
-    text-decoration: none;
+    background: none;
+    border: none;
+    text-decoration: none; /* optional */
+
     font-size: 1rem;
-    color: #4a3f38;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -181,19 +180,74 @@
 
 
 
+/**
+ DROPDOWN FÜR DESKTOP!
+ */
+/* Dropdown-Container */
+.dropdown {
+    position: relative;
+}
 
+/* Das eigentliche Dropdown-Menü */
+ .dropdown .dropdownMenu {
+    display: none ;
+    position: absolute;
+    top: 100%; /* direkt unter dem Elternmenü */
+    left: 0;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
 
+/* Einzelne Einträge im Dropdown */
+.dropdownMenu li {
+    padding: 10px;
+    text-align: left;
+}
 
+.dropdownMenu li a {
+    color: #4a3f38;
+    text-decoration: none;
+    display: block;
+}
 
+.dropdownMenu li a:hover {
+   color: #17494f;
+}
+.dropdownMenu li a:hover{
+    scale: 1.1;
+}
 
+.dropdownMenu li a {
+    text-align: center;
+}
 
+/* Zeige Dropdown beim Hover */
+ .dropdown:hover .dropdownMenu {
+    display: block ;
+}
+ /*
+ DROPDOWN MOBILE
+  */
 
+.mobileNav .dropdownMobile :hover{
+    color: #c5b5b5;
+}
 
+.dropdownMobile .dropdownMenuMobile {
+    display: none;
+    position: absolute;
+    background-color:rgb(73,63,56,0.8);;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    z-index: 9999;
+}
 
-
-
-
-
-
+.dropdownMenuMobile li a:hover {
+    background-color: #ddd;
+}
 
 

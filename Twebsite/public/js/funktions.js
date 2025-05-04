@@ -9,13 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 
-    // Logo-Element abrufen
-    let logo = document.getElementById("logoNav")
-    logo.addEventListener('click', function () {
-        window.location.href = '/';
-    });
-
-
     let facebookBtn = document.getElementById("facebookBtn");
     facebookBtn.addEventListener("click", function() {
        window.open('https://www.facebook.de', '_blank');

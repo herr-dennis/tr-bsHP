@@ -9,8 +9,13 @@
     </div>
 
 
-    <div class="defaultContainer" >
+    <div class="defaultContainer">
         <h1>Herzlich willkommen!</h1>
+
+        <div class="logoIntro">
+            <img src="{{ asset('image/TröbsLogoFinal.svg.png') }}" alt="Daniel Troebs Logo">
+        </div>
+
         <p>Mein Name ist <strong>Daniel Troebs</strong> und ich freue mich, dass Sie hier sind.</p>
         <p>Das Leben bringt immer wieder Herausforderungen mit sich – sei es im privaten oder beruflichen Bereich.
             Nicht immer gelingt es uns, diese allein zu bewältigen. Manche Situationen hinterlassen uns ratlos,

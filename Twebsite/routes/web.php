@@ -22,3 +22,11 @@ Route::get("/Leistungen", function ()
 
 Route::get('/Kontakt', [App\Http\Controllers\MainController::class, 'getKontakt']);
 
+Route::get("/KostenAblauf", function ()
+{
+    return view('kostenAblaufView');
+});
+Route::get("/Datenschutz", function ()
+{
+    return view('datenschutzView');
+});
