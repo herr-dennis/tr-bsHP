@@ -51,4 +51,9 @@
     </div>
 
 
+
+    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.9627662988264!2d6.1237910768741886!3d50.96139265044352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0a44357996245%3A0xbdf2d2492342f67d!2sAn%20d.%20Friedensburg%2020%2C%2052511%20Geilenkirchen!5e0!3m2!1sde!2sde!4v1746439947701!5m2!1sde!2sde"
+            width="600" height="450" style="border:0; margin: 20px" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 @endsection
