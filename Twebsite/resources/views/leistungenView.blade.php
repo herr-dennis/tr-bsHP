@@ -56,41 +56,11 @@
 
     </section>
     <hr>
-    <section class="defaultContainer">
-        <h2 id="SBC" >Systemische Beratung und Coaching<br><small class="unterschrift">(für Einzelpersonen, Paare und Familien)</small></h2>
-        <div class="logoIntro">
-            <img src="{{ asset('image/herzen.jpeg') }}" alt="Daniel Troebs Logo">
-        </div>
-        <p>
-            Die systemische Beratung bietet einen ganzheitlichen Ansatz, der Ihnen hilft, Ihre Herausforderungen im Kontext Ihrer sozialen Beziehungen und Lebensumfelder zu verstehen.
-        </p>
-
-        <p>
-            Anstatt Probleme isoliert zu betrachten, richten wir den Blick auf die Wechselwirkungen zwischen Ihnen und Ihrem Umfeld – sei es in der Familie, im Freundeskreis oder im beruflichen Kontext.
-        </p>
-
-        <p>
-            Die systemische Sichtweise geht davon aus, dass jeder Mensch Teil eines größeren Systems ist, das seine Gedanken, Gefühle und Verhaltensweisen beeinflusst.
-            Durch gezielte Fragen und Interventionen unterstütze ich Sie dabei, neue Perspektiven zu entwickeln, Ihre Ressourcen zu aktivieren und individuelle Lösungen zu finden.
-        </p>
-
-        <p>
-            Mein Ziel ist es, Sie darin zu begleiten, Ihre Kommunikation zu verbessern, Konflikte zu lösen und ein tieferes Verständnis für die Dynamiken in Ihrem Leben zu entwickeln.
-        </p>
-
-        <p>
-            Die systemische Beratung eignet sich für Einzelpersonen, Paare und Familien, die an ihren persönlichen oder zwischenmenschlichen Themen arbeiten möchten.
-        </p>
-    </section>
-   <hr>
-
-
-
 
     <div class="defaultContainer">
         <h2 id="SBC" >Systemische Beratung und Coaching<br>   <small class="unterschrift"> (für Einzelpersonen, Paare und Familien)</small>  </h2>
         <div class="logoIntro">
-            <img src="{{ asset('image/TröbsLogoFinal.svg.png') }}" alt="Daniel Troebs Logo">
+            <img src="{{ asset('image/herzen.jpeg') }}" alt="Daniel Troebs Logo">
         </div>
         <p>
             Die systemische Beratung bietet einen ganzheitlichen Ansatz, der Ihnen hilft, Ihre Herausforderungen
@@ -330,6 +300,38 @@
     </div>
 
 
+  <hr>
+    <div class="defaultContainer">
+        <h1 id="sozio" >Soziotherapie</h1>
+        <p>
+            Soziotherapie ist die Unterstützung für Menschen mit einer psychischen Erkrankung nach § 37a SGB V.
+            Sie ist eine ambulant therapeutische Behandlungs- und Hilfeform, die in Einzel- und Gruppengesprächen stattfindet.
+        </p>
+
+        <h2>Soziotherapie bei psychischen Belastungen</h2>
+        <p>
+            Soziotherapie eignet sich für Menschen, die durch ihre psychische Erkrankung besonders belastet sind,
+            zum Beispiel durch krankheitsbedingte Beeinträchtigungen:
+        </p>
+        <ul>
+            <li>des Antriebs</li>
+            <li>der Ausdauer</li>
+            <li>der Motivation</li>
+            <li>des planerischen Denkens und Handelns</li>
+        </ul>
+
+        <h2>Fachärzte aus den Bereichen:</h2>
+        <ul>
+            <li>Psychiatrie</li>
+            <li>Neurologie</li>
+            <li>Kinder- und Jugendpsychiatrie</li>
+            <li>Psychotherapeuten</li>
+        </ul>
+
+        <p>
+            -können Soziotherapie verordnen.
+        </p>
+    </div>
 
 
 @endsection

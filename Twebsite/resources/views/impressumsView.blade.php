@@ -8,8 +8,8 @@
             <img src="{{ asset('image/TröbsLogoFinal.svg.png') }}" alt="Daniel Troebs Logo">
         </div>
         <div class="info-block" >
-            <p><strong>Wunsch-Domain:</strong> <a href="http://www.daniel-troebs.de" target="_blank">www.daniel-troebs.de</a></p>
-            <p><strong>Wunsch-E-Mail:</strong> <a href="mailto:office@d.troebs.de">office@d.troebs.de</a></p>
+            <p><strong>Internet:</strong> <a href="http://www.daniel-troebs.de" target="_blank">www.daniel-troebs.de</a></p>
+            <p><strong>E-Mail:</strong> <a href="mailto:office@d.troebs.de">office@daniel-troebs.de</a></p>
 
         </div>
 
@@ -24,6 +24,7 @@
 
         <h2 class="headline">Steuerinformationen</h2>
         <div class="info-block">
+            <p>Kleingewerbe</p>
             <p><strong>Steuernummer:</strong> 210/5952/7198</p>
         </div>
 
@@ -31,18 +32,16 @@
         <h2 class="headline">Kontakt</h2>
 
         <div class="info-block">
-            <p><strong>Telefon:</strong> 0176 - 354 55 268</p>
+            <p>  <a href="tel:017635455268">
+                    <i style="color: #1b392b; margin-right: 5px " class="fa fa-phone"></i> </a>  0176 - 354 55 268</p>
         </div>
 
         <h2 class="headline">Adressen</h2>
 
         <div class="info-block">
 
-            <p><strong>Hausanschrift Privat:</strong></p>
-            <p>Daniel Tröbs<br>Tannenweg 9<br>52511 Geilenkirchen</p>
-
             <p><strong>Büro-Adresse:</strong></p>
-            <p>Bewo Paiva<br>Z.Hd.: Daniel Tröbs<br>Bahnhofstraße 33<br>52146 Würselen</p>
+            <p><br> Daniel Tröbs<br>An der Friedensburg 20<br>52511 Geilenkirchen</p>
 
         </div>
             <h2 class="headline">Weitere Informationen</h2>

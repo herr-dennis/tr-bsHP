@@ -154,6 +154,11 @@ footer a:hover {
     object-fit: contain;
 }
 
+.logo-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .headline {
     position: relative;
     display: inline-block;
@@ -221,7 +226,7 @@ li{
 
 .card{
     max-width: 300px;
-    background: white;
+    background: #4a3f38;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -231,7 +236,11 @@ li{
     margin-left: 20px;
 }
 .card li{
+    color: #ffffff;
     padding: 5px;
+}
+.card h4{
+    color: #ffffff;
 }
 
 .card ul {
@@ -292,4 +301,31 @@ li{
 
 .defaultContainer .info-block p {
     margin: 0;
+}
+
+.info-block a {
+    color: #16464b;
+    margin : 2px
+}
+#facebookBtn {
+    display: inline-block;
+    font-size: 34px;
+    transition: transform 0.3s ease;
+    color: #3b5998;
+}
+
+#facebookBtn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#instagramBtn {
+    display: inline-block;
+    font-size: 34px;
+    transition: transform 0.3s ease;
+    color: #9e2525;
+}
+
+#instagramBtn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

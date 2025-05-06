@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+
     <link rel="icon" href="{{ asset('FaviconLogo.png') }}" type="image/x-icon">
     <meta name="description" content="@yield("beschreibung")">
     <meta name="robots" content="index, follow"> <!-- Suchmaschinen dürfen die Seite indexieren und Links folgen -->
@@ -41,6 +42,13 @@
                 <div class="schriftzugGroß">Daniel Sujan Troebs</div> <!-- Groß -->
                 <div class="schriftzugKlein">Beratung - Coaching - Mediation</div> <!-- Klein -->
             </div>
+            <a href="tel:017635455268">
+                <i style="color: #1b392b; margin-right: 5px " class="fa fa-phone"></i>
+            </a>
+
+            <a href="mailto:office@daniel-troebs.de">
+                <i style="color: #1b392b; margin-right: 5px " class="fa fa-envelope"></i>
+            </a>
 
             <!-- Navigation Button (für mobile Ansicht) -->
 
@@ -58,7 +66,7 @@
                             <li><a href="/Leistungen#SBCF">Systemische Beratung & Coaching für Führungskräfte,
                                     Selbstständige & Unternehmen</a></li>
                             <li><a href="/Leistungen#MP">Meditation & Potenzialentfaltung</a></li>
-                            <li><a href="/Leistungen#S">Soziotherapie</a></li>
+                            <li><a href="/Leistungen#sozio">Soziotherapie</a></li>
                         </ul>
                     </li>
                     <li><a href="/KostenAblauf" >Kosten&Ablauf</a></li>
@@ -119,7 +127,7 @@
 
         <i id="instagramBtn" class="fab fa-instagram"></i>
     </div>
-
+ <h2 >Mitglied in folgenden Verbänden</h2>
     <div class="container" id="mitglieder">
         <p  class="headline" >  Bundesverband Soziotherapie e.V.</p>
         <div class="logos">

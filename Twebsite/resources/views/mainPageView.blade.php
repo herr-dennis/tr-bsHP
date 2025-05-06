@@ -4,9 +4,6 @@
 @section("main-content")
 
 
-    <div class="imageDefaultContainer">
-        <img src="{{asset("image/hände.png")}}" alt="TröbsLogoFinal.svg.png">
-    </div>
 
 
     <div class="defaultContainer">

@@ -32,6 +32,12 @@
         object-fit: cover;
         display: block;
     }
+    .fa.fa-phone {
+        font-size: 40px;
+    }
+    .fa.fa-envelope{
+        font-size: 40px;
+    }
 
     .defaultContainer{
         width: 40%;

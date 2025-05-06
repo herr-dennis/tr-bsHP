@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let facebookBtn = document.getElementById("facebookBtn");
     facebookBtn.addEventListener("click", function() {
-       window.open('https://www.facebook.de', '_blank');
+       window.open('https://www.facebook.de/sujan_troebs', '_blank');
 
     });
 
     let instagramBtn = document.getElementById("instagramBtn");
     instagramBtn.addEventListener("click", function() {
-        window.open('https://www.instagram.de', '_blank');
+        window.open('https://www.instagram.de/sujan_troebs', '_blank');
 
     });
 
