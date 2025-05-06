@@ -5,7 +5,13 @@
 
 
 
+    <p style="color: red; margin-bottom: 100px;
+     position: fixed;
+     top:50%    ;
 
+
+
+     " ><strong>WORK IN PROGRESS</strong></p>
     <div class="defaultContainer">
         <h1>Herzlich willkommen!</h1>
 
