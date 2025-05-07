@@ -5,13 +5,10 @@
 
 
 
-    <p style="color: red; margin-bottom: 100px;
-     position: fixed;
-     top:50%    ;
+    <div style="position: fixed; bottom: 0; width: 51%; background: #d7ba9d; color: black; text-align: center; padding: 10px; font-weight: bold; z-index: 6666;">
+        <span style="color: red;">&#33;</span> Seite im Aufbau <span style="color: red;">&#33;</span>
+    </div>
 
-
-
-     " ><strong>WORK IN PROGRESS</strong></p>
     <div class="defaultContainer">
         <h1>Herzlich willkommen!</h1>
 
