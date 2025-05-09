@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use Spatie\Sitemap\SitemapGenerator;
 
-class SitemapController extends Controller
+class SiteMapController extends Controller
 {
     public function generateSitemap()
     {
