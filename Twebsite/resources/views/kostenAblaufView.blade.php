@@ -1,5 +1,9 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Kosten und Ablauf")
+
+@section("beschreibung", "Hier finden Sie alle wichtigen Informationen zu den Kosten und den Ablauf")
+
 @section("main-content")
 
 

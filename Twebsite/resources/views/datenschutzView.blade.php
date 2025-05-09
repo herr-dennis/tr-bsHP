@@ -1,5 +1,7 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Datenschutz | Troebs")
+@section("beschreibung", "Daniel Troebs Datenschutz und allgemeine Informationen")
 @section("main-content")
 
 

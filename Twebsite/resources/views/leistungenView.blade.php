@@ -1,5 +1,11 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Leistungen | Troebs")
+@section("beschreibung", "Alle Leistungen, die ich anbiete, finden Sie hier. Psychologische Beratung,
+Coaching Systemische Beratung und Coaching,
+Meditation und Seminare
+Soziotherapie
+")
 
 
 @section("main-content")

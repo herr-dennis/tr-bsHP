@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -30,3 +31,5 @@ Route::get("/Datenschutz", function ()
 {
     return view('datenschutzView');
 });
+
+Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);

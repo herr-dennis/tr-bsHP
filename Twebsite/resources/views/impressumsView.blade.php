@@ -1,5 +1,8 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Impressum |Troebs")
+
+@section("bschreibung", "Impressum, Daniel Troebs. ")
 @section("main-content")
 
     <div class="defaultContainer" >

@@ -1,6 +1,8 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Über mich | Troebs")
 
+@section("beschreibung", "Alle persönliche Informationen über Danil Troebs")
 @section("main-content")
 
 

@@ -1,5 +1,8 @@
 @extends("layouts.defaultLayout")
 
+@section("title", "Kontakt | Daniel Troebs")
+
+@section("beschreibung", "Alle wichtigen Daten, um Kontakt aufzunehmen")
 @section("main-content")
 
     <h2>Kontakt</h2>
