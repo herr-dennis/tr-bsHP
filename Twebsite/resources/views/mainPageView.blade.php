@@ -1,6 +1,7 @@
 @extends("layouts.defaultLayout")
 
-@section("title", "Home | Troebs")
+@section("title", "Psychologische Beratung, Coaching & Soziotherapie |Geilenkirchen/Aachen | Troebs")
+
 @section("beschreibung" , "Ausgebildet erfahrene Fachkraft für: Psychologische Beratung,
 Coaching Systemische Beratung und Coaching,
 Meditation und Seminare
