@@ -1,2 +1,6 @@
 User-agent: *
 Sitemap: https://daniel-troebs.de/sitemap.xml
+Allow: /favicon.ico
+Allow: /fav_16_16.png
+Allow: /fav_32_32.png
+Allow: /fav_48_48.png

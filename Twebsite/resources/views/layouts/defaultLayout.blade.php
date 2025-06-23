@@ -13,8 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- 16x16 -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/image/fav_16_16.png') }}">
 
-    <link rel="icon" href="{{ asset('FaviconLogo.png') }}" type="image/x-icon">
+    <!-- 32x32 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/image/fav_32_32.png') }}">
+
+    <!-- 48x48 -->
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('/image/fav_48_48.png') }}">
+
+
+
     <meta name="description" content="@yield("beschreibung")">
     <meta name="robots" content="index, follow"> <!-- Suchmaschinen dürfen die Seite indexieren und Links folgen -->
 
