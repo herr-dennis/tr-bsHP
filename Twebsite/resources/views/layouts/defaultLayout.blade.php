@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>@yield('title')</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css">
     <link href="{{ asset('css/app.css') }}?v={{ filemtime(public_path('css/app.css')) }}" rel="stylesheet">
@@ -12,21 +13,20 @@
     <!-- In den <head> deiner Blade- oder HTML-Datei -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <base href="{{ url('/') }}/">
 
-    <!-- 16x16 -->
+
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/image/fav_16_16.png') }}">
 
-    <!-- 32x32 -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/image/fav_32_32.png') }}">
 
-    <!-- 48x48 -->
     <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('/image/fav_48_48.png') }}">
 
 
 
     <meta name="description" content="@yield("beschreibung")">
     <meta name="robots" content="index, follow"> <!-- Suchmaschinen dürfen die Seite indexieren und Links folgen -->
-
+    <meta name="copyright" content="© 2025 Schwarz & Web">
     <meta property="og:title" content="@yield('titelOg')" />
     <meta property="og:description" content="@yield('beschreibungOg')" />
     <meta property="og:image" content="{{ asset('MediumSquareLogo.jpg') }}" />
