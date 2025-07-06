@@ -14,7 +14,7 @@
 
 
         <div class="logoIntro" >
-            <img  src="{{asset("/image/IMG_6165 Kopie.png")}}" alt="Bild">
+            <img  src="{{asset("/image/newBild.jpg")}}" alt="Bild">
         </div>
 
         <p>Mein Name ist Daniel Sujan Tröbs.<br>
