@@ -5,7 +5,33 @@
 @section("beschreibung", "Alle wichtigen Daten, um Kontakt aufzunehmen")
 @section("main-content")
 
+    <script type="module">
+        import handleKontaktFormular from "/js/handleKontaktFormular.js";
+
+        document.addEventListener("DOMContentLoaded", () => {
+            handleKontaktFormular();
+        });
+    </script>
+
+
+
     <h2>Kontakt</h2>
+
+
+      <p class="defaultContainer" >Zögern Sie nicht! Melden Sie sich bei uns, ganz einfach über unser Kontaktformular</p>
+    <form class="defaultForm" id="form">
+        <label class="defaultForm__Lable" >Ihr Name</label>
+        <input class="defaultForm__InputText"  type="text" id="kontaktFormNameID"  placeholder="Ihr Name" required>
+        <label class="defaultForm__Lable">Ihre Email</label>
+        <input class="defaultForm__InputEmail" type="email" id="kontaktFormEmailID" required placeholder="Ihre Email"  >
+        <label class="defaultForm__Lable" >Ihre Nachricht:</label>
+        <textarea id="kontaktTextID" class="defaultForm__Textarea" rows="5">
+        </textarea>
+        <input class="defaultForm__Submit" id="submit"  type="submit" value="Abschicken" >
+    </form>
+     <div class="alertbox" >
+         <p class="alertbox__p" id="alertP" ></p>
+     </div>
 
 <div class="defaultContainer">
 

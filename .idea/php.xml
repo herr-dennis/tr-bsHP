@@ -165,6 +165,7 @@
       <path value="$PROJECT_DIR$/Twebsite/vendor/nunomaduro/termwind" />
       <path value="$PROJECT_DIR$/Twebsite/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/Twebsite/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Twebsite/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

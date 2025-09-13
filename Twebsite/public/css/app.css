@@ -330,3 +330,19 @@ li{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.defaultForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(144, 144, 144, 0.2);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.defaultForm__Submit{
+    border: none;
+    padding: 10px;
+}
+.defaultForm__Textarea{
+    resize: none;
+}
